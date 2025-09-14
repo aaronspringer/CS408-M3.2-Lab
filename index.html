@@ -5,23 +5,56 @@
   <meta charset="utf-8">
   <title>University Application</title>
   <meta name="author" content="Dr. Eleanor Gaye">
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .sender-column {
+      text-align: right;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    p,
+    ul,
+    ol,
+    dl,
+    address {
+      font-size: 1.1em;
+    }
+
+    p,
+    li,
+    dd,
+    dt,
+    address {
+      line-height: 1.5;
+    }
+  </style>
 </head>
 
 <body>
-  <address class="sender-column"><b>Dr. Eleanor Gaye!</b><br>
+  <address class="sender-column"><strong>Dr. Eleanor Gaye!</strong><br>
     Awesome Science faculty<br>
     University of Awesome<br>
     Bobtown, CA 99999,<br>
     USA<br>
-    <b>Tel</b>: 123-456-7890<br>
-    <b>Email</b>: no_reply@example.com
+    <strong>Tel</strong>: 123-456-7890<br>
+    <strong>Email</strong>: no_reply@example.com
   </address>
 
   <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
 
   <address>
-    <b>Miss Eileen Dover</b><br>
+    <strong>Miss Eileen Dover</strong><br>
     4321 Cliff Top Edge<br>
     Dover, CT9 XXX<br>
     UK
@@ -30,7 +63,10 @@
   <h1>Re: Eileen Dover university application</h1>
 
   <p>
-    Dear Eileen,<br>
+    Dear Eileen,
+  </p>
+  
+  <p>
     Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of
     your <abbr title="Doctor of Philosophy">PhD</abbr> next year. I will answer your questions one by one, in the
     following sections.
@@ -85,13 +121,13 @@
   <h2>Exotic dance moves</h2>
 
   <p>
-    Yes, you are right! As part of my post-doctorate work, I <i>did</i> study exotic tribal dances. To answer your
+    Yes, you are right! As part of my post-doctorate work, I <em>did</em> study exotic tribal dances. To answer your
     question, my favourite dances are as follows, with definitions:
   </p>
 
   <dl>
     <dt>Polynesian chicken dance</dt>
-    <dd>A little known but <i>very</i> influential dance dating back as far as 300 <abbr
+    <dd>A little known but <em>very</em> influential dance dating back as far as 300 <abbr
         title="Before Common Era">BC</abbr>, a whole village would dance around in a circle like chickens, to encourage
       their livestock to be "fruitful".</dd>
     <dt>Icelandic brownian shuffle</dt>
@@ -112,12 +148,15 @@
   </p>
 
   <p>
-    Yours sincerely,<br>
+    Yours sincerely,
+  </p>
+
+  <p>
     Dr Eleanor Gaye
   </p>
 
 
-  <p>University of Awesome motto: "Be awesome to each other." -- <i>The memoirs of Bill S Preston, Esq</i></p>
+  <p>University of Awesome motto: "Be awesome to each other." -- <em>The memoirs of Bill S Preston, Esq</em></p>
 </body>
 
 </html>
